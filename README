@@ -1,0 +1,25 @@
+This artifact contains the necessary source code and complementary scripts to
+allow the reproduction of the experimental section of our paper:
+"RCU-HTM: Combining RCU with HTM to Implement Highly Efficient Concurrent Binary Search Trees"
+that has been accepted to PACT'17.
+
+To compile the source code and reproduce our experimental evaluation give the following commands:
+$ git clone https://github.com/rcu-htm/pact-ae.git
+$ cd pact-ae
+$ make
+$ source ./scripts/source_me.sh
+$ ./scripts/run.sh
+
+The results are placed in a newly created directory inside the results dir. The name of the directory
+consists of the date and the hostname of the machine on which the commands were executed,
+e.g., results/2017_06_12-15_06-node1.
+
+We also provide two scripts that can be used to produce figures similar to Figures 11 and 12 of the
+paper. The following commands will produce the appropriate image files in the scripts/plots directory:
+$ cd ./scripts
+$ source source_me.sh
+$ ./create-figure-11-plots.sh ../results/2017_06_12-15_06-node1
+$ ./create-figure-12-plots.sh ../results/2017_06_12-15_06-node1 22
+
+where the second argument of create-figure-12-plots.sh is the number of threads to which the specific
+plots refer to.
