@@ -170,7 +170,7 @@ typedef struct {
 	pthread_spinlock_t rbt_lock;
 } rbt_t;
 
-unsigned int next_node_to_allocate;
+#define NODES_PER_ALLOCATOR 10000000
 rbt_node_t *per_thread_node_allocators[88];
 
 #define IS_BLACK(node) ( !(node) || (node)->color == BLACK )
@@ -190,7 +190,7 @@ static rbt_node_t *rbt_node_new(int key, color_t color, void *data)
 	return node;
 }
 
-static void rbt_node_copy(rbt_node_t *dest, rbt_node_t *src, tdata_t *tdata)
+static void rbt_node_copy(rbt_node_t *dest, rbt_node_t *src)
 {
 	dest->color = src->color;
 	dest->key = src->key;
@@ -201,10 +201,14 @@ static void rbt_node_copy(rbt_node_t *dest, rbt_node_t *src, tdata_t *tdata)
 
 static rbt_node_t *rbt_node_new_copy(rbt_node_t *src, tdata_t *tdata)
 {
-//	rbt_node_t *node = rbt_node_new(0, BLACK, NULL);
-	rbt_node_t *node = &per_thread_node_allocators[tdata->tid][tdata->next_node_to_allocate++];
-	rbt_node_copy(node, src, tdata);
+	rbt_node_t *node;
+	if (tdata->next_node_to_allocate >= NODES_PER_ALLOCATOR)
+		node = rbt_node_new(0, BLACK, NULL);
+	else
+		node = &per_thread_node_allocators[tdata->tid][tdata->next_node_to_allocate++];
+	rbt_node_copy(node, src);
 	return node;
+
 }
 
 rbt_t *_rbt_new_helper()
@@ -1350,8 +1354,8 @@ void *rbt_new()
 void *rbt_thread_data_new(int tid)
 {
 	// Pre allocate a large amount of nodes for each thread
-	per_thread_node_allocators[tid] = malloc(10000000*sizeof(rbt_node_t));
-	memset(per_thread_node_allocators[tid], 0, 10000000*sizeof(rbt_node_t));
+	per_thread_node_allocators[tid] = malloc(NODES_PER_ALLOCATOR*sizeof(rbt_node_t));
+	memset(per_thread_node_allocators[tid], 0, NODES_PER_ALLOCATOR*sizeof(rbt_node_t));
 
 	tdata_t *tdata = tdata_new(tid);
 
