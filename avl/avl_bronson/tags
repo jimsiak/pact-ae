@@ -1,0 +1,223 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGNED	ssmem.h	31;"	d
+BEGIN_CHANGE	avl_bronson_java.h	/^static inline uint64_t BEGIN_CHANGE(volatile uint64_t ovl) {$/;"	f
+CACHE_LINE_SIZE	ssmem.h	32;"	d
+CAS_U64	ssmem.h	164;"	d
+CAS_U64	ssmem.h	170;"	d
+CAS_U64	ssmem.h	177;"	d
+CHILD	avl_bronson_java.h	/^static inline volatile node_t* CHILD(volatile node_t* parent, bool_t is_right) {$/;"	f
+DESTROY_LOCK	lock_if.h	31;"	d
+DESTROY_LOCK	lock_if.h	49;"	d
+DESTROY_LOCK	lock_if.h	55;"	d
+DESTROY_LOCK_A	lock_if.h	61;"	d
+DESTROY_LOCK_A	lock_if.h	81;"	d
+END_CHANGE	avl_bronson_java.h	/^static inline uint64_t END_CHANGE(volatile uint64_t ovl) {$/;"	f
+FAI_U32	ssmem.h	165;"	d
+FAI_U32	ssmem.h	171;"	d
+FAI_U32	ssmem.h	178;"	d
+FALSE	avl_bronson_java.h	45;"	d
+FOUND	avl_bronson_java.h	35;"	d
+GL_DESTROY_LOCK	lock_if.h	36;"	d
+GL_DESTROY_LOCK	lock_if.h	71;"	d
+GL_DESTROY_LOCK	lock_if.h	76;"	d
+GL_INIT_LOCK	lock_if.h	35;"	d
+GL_INIT_LOCK	lock_if.h	70;"	d
+GL_INIT_LOCK	lock_if.h	75;"	d
+GL_LOCK	lock_if.h	37;"	d
+GL_LOCK	lock_if.h	72;"	d
+GL_LOCK	lock_if.h	77;"	d
+GL_UNLOCK	lock_if.h	38;"	d
+GL_UNLOCK	lock_if.h	73;"	d
+GL_UNLOCK	lock_if.h	78;"	d
+HEIGHT	avl_bronson_java.h	/^static inline int HEIGHT(volatile node_t* node) {$/;"	f
+INIT_LOCK	lock_if.h	30;"	d
+INIT_LOCK	lock_if.h	48;"	d
+INIT_LOCK	lock_if.h	54;"	d
+INIT_LOCK_A	lock_if.h	60;"	d
+INIT_LOCK_A	lock_if.h	80;"	d
+IS_SHRINKING	avl_bronson_java.h	/^static inline bool_t IS_SHRINKING(volatile uint64_t ovl) {$/;"	f
+IS_SHRINKING_OR_UNLINKED	avl_bronson_java.h	/^static inline bool_t IS_SHRINKING_OR_UNLINKED(volatile uint64_t ovl){$/;"	f
+IS_UNLINKED	avl_bronson_java.h	/^static inline bool_t IS_UNLINKED(volatile uint64_t ovl) {$/;"	f
+KEY_MAX	common.h	43;"	d
+KEY_MIN	common.h	42;"	d
+LOCK	lock_if.h	32;"	d
+LOCK	lock_if.h	50;"	d
+LOCK	lock_if.h	56;"	d
+LOCK_A	lock_if.h	62;"	d
+LOCK_A	lock_if.h	82;"	d
+MAX	avl_bronson_java.c	1058;"	d	file:
+MEM_BARRIER	common.h	53;"	d
+ND_GET_LOCK	lock_if.h	46;"	d
+ND_GET_LOCK	lock_if.h	68;"	d
+NOTHING_REQUIRED	avl_bronson_java.h	49;"	d
+NOT_FOUND	avl_bronson_java.h	36;"	d
+NO_UPDATE_RESULT	avl_bronson_java.h	/^static inline sval_t NO_UPDATE_RESULT(function_t func, sval_t prev){$/;"	f
+PREFETCHW_LOCK	lock_if.h	26;"	d
+PREFETCHW_LOCK	lock_if.h	52;"	d
+PREFETCHW_LOCK	lock_if.h	58;"	d
+PREFETCHW_LOCK_A	lock_if.h	65;"	d
+PREFETCHW_LOCK_A	lock_if.h	85;"	d
+PTLOCK_SIZE	lock_if.h	29;"	d
+REBALANCE_REQUIRED	avl_bronson_java.h	48;"	d
+RETRY	avl_bronson_java.h	37;"	d
+SHOULD_UPDATE	avl_bronson_java.h	/^static inline bool_t SHOULD_UPDATE(function_t func, sval_t prev) {$/;"	f
+SPIN_COUNT	avl_bronson_java.h	52;"	d
+SSALLOC_H	ssalloc.h	24;"	d
+SSALLOC_NUM_ALLOCATORS	ssalloc.h	44;"	d
+SSALLOC_SIZE	ssalloc.h	47;"	d
+SSALLOC_SIZE	ssalloc.h	49;"	d
+SSALLOC_SIZE	ssalloc.h	51;"	d
+SSALLOC_SIZE	ssalloc.h	53;"	d
+SSALLOC_USE_MALLOC	ssalloc.h	41;"	d
+SSMEM_CACHE_LINE_SIZE	ssalloc.c	39;"	d	file:
+SSMEM_DEFAULT_MEM_SIZE	ssmem.h	14;"	d
+SSMEM_DEFAULT_MEM_SIZE	ssmem.h	17;"	d
+SSMEM_DEFAULT_MEM_SIZE	ssmem.h	20;"	d
+SSMEM_GC_FREE_SET_SIZE	ssmem.h	13;"	d
+SSMEM_GC_FREE_SET_SIZE	ssmem.h	16;"	d
+SSMEM_GC_FREE_SET_SIZE	ssmem.h	19;"	d
+SSMEM_GC_FREE_SET_SIZE	ssmem.h	24;"	d
+SSMEM_GC_FREE_SET_SIZE	ssmem.h	25;"	d
+STATIC_ASSERT	common.h	34;"	d
+STATIC_ASSERT	common.h	36;"	d
+STR	common.h	31;"	d
+TRUE	avl_bronson_java.h	44;"	d
+TRYLOCK_A	lock_if.h	63;"	d
+TRYLOCK_A	lock_if.h	83;"	d
+UNLINKED_OVL	avl_bronson_java.h	42;"	d
+UNLINK_REQUIRED	avl_bronson_java.h	47;"	d
+UNLOCK	lock_if.h	33;"	d
+UNLOCK	lock_if.h	51;"	d
+UNLOCK	lock_if.h	57;"	d
+UNLOCK_A	lock_if.h	64;"	d
+UNLOCK_A	lock_if.h	84;"	d
+UNUSED	common.h	47;"	d
+UPDATE_IF_ABSENT	avl_bronson_java.h	40;"	d
+UPDATE_IF_PRESENT	avl_bronson_java.h	39;"	d
+UPDATE_RESULT	avl_bronson_java.h	/^static inline sval_t UPDATE_RESULT(function_t func, sval_t prev) {$/;"	f
+XSTR	common.h	30;"	d
+_COMMON_H_	common.h	25;"	d
+_LOCK_IF_H_	lock_if.h	24;"	d
+_SSMEM_H_	ssmem.h	3;"	d
+_avl_validate_helper	avl_bronson_java.c	/^static inline int _avl_validate_helper(node_t *root)$/;"	f	file:
+_avl_validate_rec	avl_bronson_java.c	/^static int _avl_validate_rec(node_t *root, int _depth,$/;"	f	file:
+_avl_warmup_helper	avl_bronson_java.c	/^static inline int _avl_warmup_helper(node_t *root, int nr_nodes, int max_key,$/;"	f	file:
+alloc_next	ssalloc.c	/^static __thread size_t alloc_next[SSALLOC_NUM_ALLOCATORS] = {0};$/;"	v	file:
+attempt_get	avl_bronson_java.c	/^sval_t attempt_get(skey_t k, volatile node_t* node, bool_t is_right, uint64_t node_v) {$/;"	f
+attempt_insert_into_empty	avl_bronson_java.c	/^bool_t attempt_insert_into_empty(skey_t key, sval_t value, volatile node_t* holder){$/;"	f
+attempt_node_update	avl_bronson_java.c	/^sval_t attempt_node_update(function_t func, sval_t new_value, volatile node_t* parent, volatile node_t* node) {$/;"	f
+attempt_unlink_nl	avl_bronson_java.c	/^bool_t attempt_unlink_nl(volatile node_t* parent, volatile node_t* node) {$/;"	f
+attempt_update	avl_bronson_java.c	/^sval_t attempt_update(skey_t key, function_t func, sval_t new_value, volatile node_t* parent, volatile node_t* node, uint64_t node_v) {$/;"	f
+available_set_list	ssmem.h	/^      struct ssmem_free_set* available_set_list; \/* list of set structs that are not used$/;"	m	struct:ssmem_allocator::__anon1::__anon2	typeref:struct:ssmem_allocator::__anon1::__anon2::ssmem_free_set
+avl_print_rec	avl_bronson_java.c	/^static void avl_print_rec(volatile node_t *root, int level)$/;"	f	file:
+avl_print_struct	avl_bronson_java.c	/^static void avl_print_struct(volatile node_t *root)$/;"	f	file:
+avl_violations	avl_bronson_java.c	/^static int avl_violations, bst_violations;$/;"	v	file:
+bool_t	avl_bronson_java.h	/^typedef uint8_t bool_t;$/;"	t
+bst_add	avl_bronson_java.c	/^bool_t bst_add(skey_t key, sval_t v, volatile node_t* root) {$/;"	f
+bst_contains	avl_bronson_java.c	/^sval_t bst_contains(skey_t key, volatile node_t* root) {$/;"	f
+bst_initialize	avl_bronson_java.c	/^volatile node_t* bst_initialize() {$/;"	f
+bst_remove	avl_bronson_java.c	/^sval_t bst_remove(skey_t key, volatile node_t* root) {$/;"	f
+bst_size	avl_bronson_java.c	/^uint64_t bst_size(volatile node_t* node) {$/;"	f
+bst_violations	avl_bronson_java.c	/^static int avl_violations, bst_violations;$/;"	v	file:
+collected_set_list	ssmem.h	/^      struct ssmem_free_set* collected_set_list; \/* list of collected_set. A collected set$/;"	m	struct:ssmem_allocator::__anon1::__anon2	typeref:struct:ssmem_allocator::__anon1::__anon2::ssmem_free_set
+collected_set_num	ssmem.h	/^      size_t collected_set_num;	\/* number of sets in the collected_set_list *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+curr	ssmem.h	/^  long int curr;		$/;"	m	struct:ssmem_free_set
+fix_height_and_rebalance	avl_bronson_java.c	/^void fix_height_and_rebalance(volatile node_t* node) {$/;"	f
+fix_height_nl	avl_bronson_java.c	/^volatile node_t* fix_height_nl(volatile node_t* node){$/;"	f
+free_set_list	ssmem.h	/^      struct ssmem_free_set* free_set_list; \/* list of free_set. A free set holds freed mem $/;"	m	struct:ssmem_allocator::__anon1::__anon2	typeref:struct:ssmem_allocator::__anon1::__anon2::ssmem_free_set
+free_set_num	ssmem.h	/^      size_t free_set_num;	\/* number of sets in the free_set_list *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+fs_size	ssmem.h	/^      size_t fs_size;		\/* size (in objects) of free_sets *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+function_t	avl_bronson_java.h	/^typedef uint8_t function_t;$/;"	t
+height	avl_bronson_java.h	/^		volatile int height; $/;"	m	struct:node_t::__anon5
+id	ssmem.h	/^      uint8_t id;$/;"	m	struct:ssmem_ts::__anon3::__anon4
+key	avl_bronson_java.h	/^		volatile skey_t key; $/;"	m	struct:node_t::__anon5
+left	avl_bronson_java.h	/^		volatile node_t* left; $/;"	m	struct:node_t::__anon5
+likely	common.h	50;"	d
+lock	avl_bronson_java.h	/^		volatile ptlock_t lock;				$/;"	m	struct:node_t::__anon5
+max	avl_bronson_java.h	54;"	d
+max_path_len	avl_bronson_java.c	/^static int min_path_len, max_path_len;$/;"	v	file:
+mem	ssmem.h	/^      void* mem;		\/* the actual memory the allocator uses *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+mem	ssmem.h	/^  void* mem;$/;"	m	struct:ssmem_released
+mem_chunks	ssmem.h	/^      struct ssmem_list* mem_chunks; \/* list of mem chunks (used to free the mem) *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2	typeref:struct:ssmem_allocator::__anon1::__anon2::ssmem_list
+mem_curr	ssmem.h	/^      size_t mem_curr;		\/* pointer to the next addrr to be allocated *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+mem_size	ssmem.h	/^      size_t mem_size;		\/* size of mem chunk *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+min_path_len	avl_bronson_java.c	/^static int min_path_len, max_path_len;$/;"	v	file:
+new_node	avl_bronson_java.c	/^ volatile node_t* new_node(int height, skey_t key, uint64_t version, sval_t value, volatile node_t* parent, volatile node_t* left, volatile node_t* right, bool_t initializing) {$/;"	f
+next	ssmem.h	/^      struct ssmem_ts* next;$/;"	m	struct:ssmem_ts::__anon3::__anon4	typeref:struct:ssmem_ts::__anon3::__anon4::ssmem_ts
+next	ssmem.h	/^  struct ssmem_list* next;$/;"	m	struct:ssmem_list	typeref:struct:ssmem_list::ssmem_list
+next	ssmem.h	/^  struct ssmem_released* next;$/;"	m	struct:ssmem_released	typeref:struct:ssmem_released::ssmem_released
+node_conditon	avl_bronson_java.c	/^int node_conditon(volatile node_t* node) {$/;"	f
+node_t	avl_bronson_java.h	/^typedef ALIGNED(64) union node_t node_t;$/;"	v	typeref:union:node_t
+node_t	avl_bronson_java.h	/^union node_t {$/;"	u
+obj	ssmem.h	/^  void* obj;$/;"	m	struct:ssmem_list
+padding	avl_bronson_java.h	/^	char padding[128*((48+sizeof(ptlock_t))\/64+1)];$/;"	m	union:node_t
+padding	ssmem.h	/^    uint8_t padding[2 * CACHE_LINE_SIZE];$/;"	m	union:ssmem_allocator::__anon1
+padding	ssmem.h	/^  uint8_t padding[CACHE_LINE_SIZE];$/;"	m	struct:ssmem_ts
+parent	avl_bronson_java.h	/^		volatile node_t* parent; $/;"	m	struct:node_t::__anon5
+ptlock_t	lock_if.h	/^typedef pthread_spinlock_t ptlock_t;$/;"	t
+rbt_delete	avl_bronson_java.c	/^int rbt_delete(void *avl, void *thread_data, int key)$/;"	f
+rbt_insert	avl_bronson_java.c	/^int rbt_insert(void *avl, void *thread_data, int key, void *value)$/;"	f
+rbt_lookup	avl_bronson_java.c	/^int rbt_lookup(void *avl, void *thread_data, int key)$/;"	f
+rbt_name	avl_bronson_java.c	/^char *rbt_name()$/;"	f
+rbt_new	avl_bronson_java.c	/^void *rbt_new()$/;"	f
+rbt_thread_data_add	avl_bronson_java.c	/^void rbt_thread_data_add(void *d1, void *d2, void *dst)$/;"	f
+rbt_thread_data_new	avl_bronson_java.c	/^void *rbt_thread_data_new(int tid)$/;"	f
+rbt_thread_data_print	avl_bronson_java.c	/^void rbt_thread_data_print(void *thread_data)$/;"	f
+rbt_validate	avl_bronson_java.c	/^int rbt_validate(void *avl)$/;"	f
+rbt_warmup	avl_bronson_java.c	/^int rbt_warmup(void *avl, int nr_nodes, int max_key, $/;"	f
+rebalance_nl	avl_bronson_java.c	/^volatile node_t* rebalance_nl(volatile node_t* n_parent, volatile node_t* n){$/;"	f
+rebalance_to_left_nl	avl_bronson_java.c	/^volatile node_t* rebalance_to_left_nl(volatile node_t* n_parent, volatile node_t* n, volatile node_t* nr, int hl0) {$/;"	f
+rebalance_to_right_nl	avl_bronson_java.c	/^volatile node_t* rebalance_to_right_nl(volatile node_t* n_parent, volatile node_t* n, volatile node_t* nl, int hr0) {$/;"	f
+released_mem_list	ssmem.h	/^      struct ssmem_released* released_mem_list; \/* list of release memory objects *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2	typeref:struct:ssmem_allocator::__anon1::__anon2::ssmem_released
+released_num	ssmem.h	/^      size_t released_num;	\/* number of released memory objects *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+right	avl_bronson_java.h	/^		volatile node_t* right; $/;"	m	struct:node_t::__anon5
+rotate_left_nl	avl_bronson_java.c	/^volatile node_t* rotate_left_nl(volatile node_t* n_parent, volatile node_t* n, int hl, volatile node_t* nr, volatile node_t* nrl, int hrl, int hrr){$/;"	f
+rotate_left_over_right_nl	avl_bronson_java.c	/^volatile node_t* rotate_left_over_right_nl(volatile node_t* n_parent, volatile node_t* n, int hl, volatile node_t* nr, volatile node_t* nrl, int hrr, int hrlr){$/;"	f
+rotate_right_nl	avl_bronson_java.c	/^volatile node_t* rotate_right_nl(volatile node_t* n_parent, volatile node_t* n, volatile node_t* nl, int hr, int hll, volatile node_t* nlr, int hlr) {$/;"	f
+rotate_right_over_left_nl	avl_bronson_java.c	/^volatile node_t* rotate_right_over_left_nl(volatile node_t* n_parent, volatile node_t* n, volatile node_t* nl, int hr, int hll, volatile node_t* nlr, int hlrl){$/;"	f
+set	ssmem.h	/^  uintptr_t* set;$/;"	m	struct:ssmem_free_set
+set_child	avl_bronson_java.c	/^void set_child(volatile node_t* parent, volatile node_t* child, bool_t is_right) {$/;"	f
+set_next	ssmem.h	/^  struct ssmem_free_set* set_next;$/;"	m	struct:ssmem_free_set	typeref:struct:ssmem_free_set::ssmem_free_set
+size	ssmem.h	/^  size_t size;$/;"	m	struct:ssmem_free_set
+skey_t	common.h	/^typedef int skey_t;$/;"	t
+ssalloc	ssalloc.c	/^ssalloc(size_t size)$/;"	f
+ssalloc_aligned	ssalloc.c	/^ssalloc_aligned(size_t alignment, size_t size)$/;"	f
+ssalloc_aligned_alloc	ssalloc.c	/^ssalloc_aligned_alloc(unsigned int allocator, size_t alignement, size_t size)$/;"	f
+ssalloc_alloc	ssalloc.c	/^ssalloc_alloc(unsigned int allocator, size_t size)$/;"	f
+ssalloc_app_mem	ssalloc.c	/^static __thread uintptr_t ssalloc_app_mem[SSALLOC_NUM_ALLOCATORS];$/;"	v	file:
+ssalloc_free_cur	ssalloc.c	/^static __thread uint8_t ssalloc_free_cur[SSALLOC_NUM_ALLOCATORS] = {0};$/;"	v	file:
+ssalloc_free_list	ssalloc.c	/^static __thread void* ssalloc_free_list[SSALLOC_NUM_ALLOCATORS][256] = {{0}};$/;"	v	file:
+ssalloc_free_num	ssalloc.c	/^static __thread uint8_t ssalloc_free_num[SSALLOC_NUM_ALLOCATORS] = {0};$/;"	v	file:
+ssalloc_init	ssalloc.c	/^ssalloc_init()$/;"	f
+ssalloc_offset	ssalloc.c	/^ssalloc_offset(size_t size)$/;"	f
+ssalloc_set	ssalloc.c	/^ssalloc_set(void* mem)$/;"	f
+ssfree	ssalloc.c	/^ssfree(void* ptr)$/;"	f
+ssfree_alloc	ssalloc.c	/^ssfree_alloc(unsigned int allocator, void* ptr)$/;"	f
+ssmem_allocator	ssmem.h	/^typedef struct ALIGNED(CACHE_LINE_SIZE) ssmem_allocator$/;"	s
+ssmem_allocator_t	ssmem.h	/^} ssmem_allocator_t;$/;"	t	typeref:struct:ssmem_allocator
+ssmem_free_set	ssmem.h	/^typedef struct ALIGNED(CACHE_LINE_SIZE) ssmem_free_set$/;"	s
+ssmem_free_set_t	ssmem.h	/^} ssmem_free_set_t;$/;"	t	typeref:struct:ssmem_free_set
+ssmem_list	ssmem.h	/^typedef struct ssmem_list$/;"	s
+ssmem_list_t	ssmem.h	/^} ssmem_list_t;$/;"	t	typeref:struct:ssmem_list
+ssmem_released	ssmem.h	/^typedef struct ssmem_released$/;"	s
+ssmem_released_t	ssmem.h	/^} ssmem_released_t;$/;"	t	typeref:struct:ssmem_released
+ssmem_ts	ssmem.h	/^typedef struct ALIGNED(CACHE_LINE_SIZE) ssmem_ts$/;"	s
+ssmem_ts_t	ssmem.h	/^} ssmem_ts_t;$/;"	t	typeref:struct:ssmem_ts
+sval_t	common.h	/^typedef uintptr_t sval_t;$/;"	t
+tot_size	ssmem.h	/^      size_t tot_size;		\/* total memory that the allocator uses *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2
+total_nodes	avl_bronson_java.c	/^static int total_nodes;$/;"	v	file:
+total_paths	avl_bronson_java.c	/^static int total_paths;$/;"	v	file:
+ts	ssmem.h	/^      struct ssmem_ts* ts;	\/* timestamp object associated with the allocator *\/$/;"	m	struct:ssmem_allocator::__anon1::__anon2	typeref:struct:ssmem_allocator::__anon1::__anon2::ssmem_ts
+ts_set	ssmem.h	/^  size_t* ts_set;		\/* set of timestamps for GC *\/$/;"	m	struct:ssmem_free_set
+ts_set	ssmem.h	/^  size_t* ts_set;$/;"	m	struct:ssmem_released
+unlikely	common.h	51;"	d
+update_under_root	avl_bronson_java.c	/^sval_t update_under_root(skey_t key, function_t func, sval_t new_value, volatile node_t* holder) {$/;"	f
+value	avl_bronson_java.h	/^		volatile sval_t value; $/;"	m	struct:node_t::__anon5
+version	avl_bronson_java.h	/^		volatile uint64_t version; $/;"	m	struct:node_t::__anon5
+version	ssmem.h	/^      size_t version;$/;"	m	struct:ssmem_ts::__anon3::__anon4
+wait_until_not_changing	avl_bronson_java.c	/^void wait_until_not_changing(volatile node_t* node) {$/;"	f

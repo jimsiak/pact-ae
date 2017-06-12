@@ -1,0 +1,8 @@
+*.jpg
+*.out
+x.*
+
+results/*
+!results/.gitkeep
+scripts/plots/*
+!scripts/plots/.gitkeep
