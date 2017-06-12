@@ -129,7 +129,7 @@ matplotlib.rc('font', **font)
 
 plt.title(prefix_large_number(max_key) + " keys - " + str(lookups_pct) + "% lookups")
 
-ax.set_xlim(-0.4, 6.4)
+ax.set_xlim(-0.4, len(nthreads_axis)-1+0.4)
 ax.set_xlabel("Number of threads")
 ax.set_ylabel("Throughput (Mops/sec)")
 

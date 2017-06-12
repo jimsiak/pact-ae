@@ -14,6 +14,12 @@ nthreads=22
 [ "x$2" != "x" ] && nthreads=$2
 
 ./get_averages_normalized.sh $results_dir $nthreads > averages.output
+if [ "$?" != "0" ]; then
+	echo "Could not find the appropriate values for $nthreads threads in the specified outputs directory."
+	rm averages.output
+	exit 1
+fi
+
 echo "Plotting total averages"
 ./plotbars_performance_evaluation.py total averages.output
 echo "Plotting per tree size averages"
