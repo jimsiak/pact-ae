@@ -45,7 +45,7 @@ x.avl.bronson: $(SOURCE_FILES) avl/avl_bronson/avl_bronson_java.c avl/avl_bronso
 bst: x.bst.aravind x.bst.citrus
 x.bst.aravind: $(SOURCE_FILES) bst/bst-aravind.c
 	$(CC) $(CFLAGS) $^ -o $@
-CITRUS_ORIGINAL_SRC=/home/users/jimsiak/concurentDataBenchmarks/citrus
+CITRUS_ORIGINAL_SRC=./lib/citrus
 x.bst.citrus: $(SOURCE_FILES) bst/bst-citrus-mine.c $(CITRUS_ORIGINAL_SRC)/new_urcu.c
 	$(CC) $(CFLAGS) -I$(CITRUS_ORIGINAL_SRC) $^ -o $@
 
