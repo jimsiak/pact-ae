@@ -26,18 +26,25 @@ THREADS_CONF_LEN=$(echo "$THREADS_CONF" | wc -w)
 ERROR_FOUND=0
 
 for n in `seq 0 $((NR_EXECUTIONS-1))`; do
-for e in $EXECUTABLES; do
 for w in $RCU_HTM_WORKLOADS; do
 for i in $INIT_SIZES; do
 
+for e in $EXECUTABLES; do
 	filename="$outputs_dir/${e}.${i}_init.${w}.${n}.output"
 	nr_throughput_lines=$(grep "Throughput(Ops/usec):" $filename | wc -l)
 	if [ "$nr_throughput_lines" != "$THREADS_CONF_LEN" ]; then
 		echo "ERROR: filename $filename has $nr_throughput_lines throughput values instead of $THREADS_CONF_LEN"
 		ERROR_FOUND=1
 	fi
-
 done
+
+	serial_filename="$outputs_dir/SERIAL/${SERIAL_EXE}.${i}_init.${w}.${n}.output"
+	nr_throughput_lines_serial=$(grep "Throughput(Ops/usec):" $serial_filename | wc -l)
+	if [ "$nr_throughput_lines_serial" != "1" ]; then
+		echo "ERROR: filename $serial_filename filename has $nr_throughput_lines_serial throughput values instead of 1"
+		ERROR_FOUND=1
+	fi
+
 done
 done
 done
